@@ -1,4 +1,6 @@
 #include "dog.h"
+
+
 /**
 *_strlen - returns length of
 *a string
@@ -13,6 +15,7 @@ len++;
 
 return (len);
 }
+
 
 /**
 *_strcopy - copy string pointed by src
@@ -31,6 +34,9 @@ dest[index] = src[index];
 dest[index] = '\0';
 return (dest);
 }
+
+
+
 
 /**
 *new_dog - creates a new dog
